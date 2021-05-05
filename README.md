@@ -1,16 +1,16 @@
 <h1 align="center">Telegram File Stream Bot</h1>
 <p align="center">
-  <a href="https://github.com/AbirHasan2005/Pyro-FileStreamBot">
-    <img src="https://socialify.git.ci/AbirHasan2005/Pyro-FileStreamBot/image?description=1&font=Source%20Code%20Pro&forks=1&issues=1&logo=https%3A%2F%2Fwww.flaticon.com%2Fpremium-icon%2Ficons%2Fsvg%2F2321%2F2321089.svg&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark" alt="Cover Image" width="650">
+  <a href="https://github.com/MrNobody503/File-Stream">
+    <img src="https://socialify.git.ci/MrNobody503/File-Stream/image?description=1&font=Source%20Code%20Pro&forks=1&issues=1&logo=https%3A%2F%2Fwww.flaticon.com%2Fpremium-icon%2Ficons%2Fsvg%2F2321%2F2321089.svg&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark" alt="Cover Image" width="650">
   </a>
   <p align="center">
     A Telegram bot to stream files to web
     <br />
-    <a href="https://telegram.dog/AH_File2Link_Bot"><strong>Demo Bot »</strong></a>
+    <a href="https://telegram.dog/File2LinkPro_Bot"><strong>Demo Bot »</strong></a>
     <br />
-    <a href="https://github.com/AbirHasan2005/Pyro-FileStreamBot/issues">Report a Bug</a>
+    <a href="https://github.com/MrNobody503/File-Stream/issues">Report a Bug</a>
     |
-    <a href="https://github.com/AbirHasan2005/Pyro-FileStreamBot/issues">Request Feature</a>
+    <a href="https://github.com/MrNobody503/File-Stream/issues">Request Feature</a>
   </p>
 </p>
 
@@ -46,7 +46,7 @@
 ## About This Bot
 
 <p align="center">
-    <a href="https://github.com/AbirHasan2005/Pyro-FileStreamBot">
+    <a href="https://github.com/MrNobody503/File-Stream">
         <img src="https://www.flaticon.com/premium-icon/icons/svg/2626/2626281.svg" height="100" width="100" alt="Telegram Logo">
     </a>
 </p>
@@ -73,7 +73,7 @@ then goto the <a href="#mandatory-vars">variables tab</a> for more info on setti
 ### Host it on VPS or Locally
 
 ```sh
-git clone https://github.com/AbirHasan2005/Pyro-FileStreamBot
+git clone https://github.com/MrNobody503/File-Stream
 cd TG-FileStreamBot
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
@@ -113,7 +113,7 @@ DATABASE_URL=mongodb_uri
 
 `OWNER_ID` : Your Telegram User ID
 
-`DATABASE_URL` : MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help to get the URI you can ask in [Support Group](https://t.me/linux_repo).
+`DATABASE_URL` : MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help to get the URI you can ask me [Mr Nobody](https://t.me/MrNobody_Here).
 
 ### Optional Vars
 
@@ -146,6 +146,6 @@ Bot also Supported with Channels. Just add bot Channel as Admin. If any new file
 
 ## Credits
 
-- [@EverythingSuckz](https://github.com/EverythingSuckz) & [@AbirHasan2005](https://github.com/AbirHasan2005)
+- [@MrNobody503](https://github.com/MrNobody503)
 - [eyaadh](https://github.com/eyaadh) for his awesome [Megatron Bot](https://github.com/eyaadh/megadlbot_oss)
 - [Dan Tès](https://telegram.dog/haskell) for his [Pyrogram Library](https://github.com/pyrogram/pyrogram)
