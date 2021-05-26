@@ -13,7 +13,7 @@ db = Database(Var.DATABASE_URL, Var.SESSION_NAME)
 @StreamBot.on_message(filters.command('start') & filters.private & ~filters.edited)
 async def start(b, m):
     if not await db.is_user_exist(m.from_user.id):
-        await db.add_user(m.from_user.id)
+        await db.add_user(m.from_user.id) 
         await b.send_message(
             Var.BIN_CHANNEL,
             f"#NEW_USER: \n\nNew User [{m.from_user.first_name}](tg://user?id={m.from_user.id}) Started !!"
@@ -56,7 +56,8 @@ async def start(b, m):
             text='🙋 Hey Bruh!!\nI am Instant Telegram File to Link Generator Bot.\n\nSend me any file & see the magic!',
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton('Bots Channel', url='https://t.me/Nobodys_Bots'), InlineKeyboardButton('Developer', url='https://t.me/MrNobody_Here')]
+                    [InlineKeyboardButton('Updates Channel', url='https://t.me/Nobodys_Bots') 
+                     InlineKeyboardButton('Developer', url='https://t.me/MrNobody_Here')]
                 ]
             ),
             disable_web_page_preview=True
