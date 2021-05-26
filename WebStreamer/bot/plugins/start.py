@@ -177,7 +177,7 @@ async def help_handler(bot, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("Channel", url="https://t.me/Nobodys_Bots"), 
-                [InlineKeyboardButton("Developer", url="https://t.me/MrNobody_Here")]
+                InlineKeyboardButton("Developer", url="https://t.me/MrNobody_Here")]
             ]
         )
     )
